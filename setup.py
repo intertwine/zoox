@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 from os import path
 from io import open
 
@@ -22,10 +22,9 @@ setup(
     url='https://github.com/intertwine/zoox',
     author='Bryan Young',
     author_email='bryan@intertwinesys.com',
+    license='MIT',
     keywords='zoom csv tsv xlsx',
-    package_dir={'': 'src'},
-    packages=find_packages(where='src'),
-    #py_modules=['zoox'],
+    py_modules=['zoox'],
     install_requires=[
         'click',
         'xlsxwriter'
