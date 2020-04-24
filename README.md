@@ -13,6 +13,9 @@ Quick install:
 ~ pip install .
 ~ zoox --help
 
+Usage: zoox [OPTIONS] FILE_PATH
+
 Options:
--t, --type [xlsx|csv|tsv]  [default: xlsx]
+  -t, --type [xlsx|csv|tsv]  [default: xlsx]
+  --help                     Show this message and exit.
 ```
